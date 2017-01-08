@@ -13,3 +13,5 @@ The code tests the most basic operability.
 - getting items by a field value
 - sorting
 - deleting an item
+
+![screenshot](https://raw.githubusercontent.com/jelinden/bleve-full-text-search/master/screenshot.png)
