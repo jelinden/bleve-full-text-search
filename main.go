@@ -41,6 +41,7 @@ func deleteItemWithID() {
 func getItemWithTitle(title string) {
 	fmt.Println("\ngetting item with title '" + title + "'")
 	query := bleve.NewMatchQuery(title)
+
 	query.SetField("Title")
 	search := bleve.NewSearchRequest(query)
 	search.Fields = []string{"*"}
